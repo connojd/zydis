@@ -8,6 +8,8 @@ project(Zydis VERSION 3.0.0.0 LANGUAGES C CXX)
 # Overridable options                                                                             #
 # =============================================================================================== #
 
+set(CMAKE_BUILD_TYPE Release)
+
 # Features
 option(ZYDIS_MINIMAL_MODE
     "Enable minimal mode (forces ZYDIS_DECODER_MODE_MINIMAL runtime option)"
